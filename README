@@ -1,0 +1,9 @@
+Basic servo door opener. Uses a Node.js as a server which sends servo commands to an Arduino, which acts as a buffer.
+
+Can run on any platform, but I happen to use a RasPi. The makefile is Mac-specific, but the PDE will compile with any Arduino-compatible build stack.
+
+Node Requirements:
+    sleep
+    nodeserial
+    express
+
